@@ -445,13 +445,31 @@
   <script src="assets/js/main.js"></script>
 
           <!-- WhatsApp widget start -->
- <script  type="text/javascript">  var config = {    phone :" 27 27717725619",    call :"Message us ",   
-  position :"ww-left",    size : "ww-normal",    text : "",    type: "ww-standard",    brand: 
-  "Muzungutech",    subtitle: "",    welcome: "Hie, how can i help you"  };  var proto = 
-  document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;    var s 
-  = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + 
-  "/v2/main.js";    s.onload = function () { tmWidgetInit(config) };    var x = 
-  document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);</script>0
+<script>
+    (function (w, d, s, u) {
+    w.gbwawc = {
+    url: u,
+    options: {
+            waId: "+27 27717725619",
+            siteName: "Muzungutech",
+            siteTag: "usually respond asap",
+            siteLogo: "https://assets.gallabox.com/gb-home/wa-chat-widget/bot+avatars/1.png",
+            widgetPosition: "LEFT",
+            triggerMessage: "",
+            welcomeMessage: "Welcome to Muzungutech, how can l help you ",
+            brandColor: "#25D366",
+            messageText: "",
+            replyOptions: ['',''],
+        },
+    };
+    var h = d.getElementsByTagName(s)[0],
+    j = d.createElement(s);
+    j.async = true;
+    j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+    h.parentNode.insertBefore(j, h);
+    })(window, document, "script", "https://waw.gallabox.com");
+</script>
+
 
            <!-- WhatsApp widget end -->
 
